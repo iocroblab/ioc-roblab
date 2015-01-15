@@ -1,0 +1,76 @@
+Source: ioc-roblab
+Section: misc
+Priority: extra
+Maintainer: Leopold Palomo-Avellaneda <leo@alaxarxa.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: http://sir.upc.edu/wikis/roblab
+Vcs-Git: git@github.com:iocroblab/ioc-roblab.git
+Vcs-Browser: https://github.com/iocroblab/ioc-roblab
+
+Package: ioc-roblab
+Architecture: any
+Depends: ${misc:Depends}, 
+	ioc-roblab-edition,
+	ioc-roblab-development,
+	ioc-roblab-utils
+Description: Metapackage for a computer lab
+ This is a metapackage with all the packages needed to work at
+ the IOC (Institut d'Organització i Control de Sistemes Industrials -IOC-)
+ in the Robotics division.
+
+Package: ioc-roblab-edition
+Architecture: any
+Depends: ${misc:Depends},
+ 	graphviz, icatalan, icc-profiles, latex-beamer, 
+	latex-cjk-all, latex-xcolor, texlive-full
+Description: Metapackage for a computer lab edition
+ This is a metapackage with all the packages needed to work at
+ the IOC (Institut d'Organització i Control de Sistemes Industrials -IOC-)
+ in the Robotics division.
+ .
+ This package has the packages needed to edit and manipulate documents.
+
+Package: ioc-roblab-development
+Architecture: any
+Depends: ${misc:Depends},
+	build-essential, bzip2, cmake-qt-gui, cmake-curses-gui,
+ 	cmake, dosfstools, doxygen, doxygen-latex, dput,
+	eclipse-cdt, gccxml, graphviz,
+	lib3ds-dev, libarmadillo-dev, libassimp-dev, libavformat-dev,
+ 	libavutil-dev, libblas-dev, libblas-dev, libboost-all-dev,
+	libbullet-dev, libcaca-dev, comerr-dev,
+	dpkg-dev, icu-devtools, libapr1-dev, libaprutil1-dev,
+	libarpack2-dev, libasound2-dev, libdime-dev, libcoin80-dev,
+	libasprintf-dev, libeigen3-dev, libexpat1-dev, libflac-dev,
+	libfltk1.3-dev, libicu-dev, libgtk2.0-dev, libgsl0-dev,
+	libjpeg-dev, liblog4cxx10-dev, libnetcdf-dev, libnuma-dev,
+	libltdl-dev, liboctomap-dev, libode-dev, libopencv-dev,
+	libopenmpi-dev, libopenni-dev, libpoco-dev, libpthread-stubs0-dev,
+	libpq-dev, libpyside-dev, libpython-dev, libqwt-dev, libqt4-dev,
+	libqt4-dev-bin, libqt4-opengl-dev, libqtwebkit-dev, libraw1394-dev,
+	libreadline-dev, libsdl-image1.2-dev, libshiboken-dev, libsdl1.2-dev,
+	libsimage-dev, libsoqt4-dev, libtiff5-dev, libusb-dev, libtinyxml-dev,
+	libusb-dev, libusb-1.0-0-dev, libvtk5-dev, python-dev,
+	qt4-dev-tools, qttools5-dev-tools, sip-dev, tk8.5-dev, qtcreator,
+	libompl-dev, libpugixml-dev
+Description: Metapackage for a computer lab development
+ This is a metapackage with all the packages needed to work at
+ the IOC (Institut d'Organització i Control de Sistemes Industrials -IOC-)
+ in the Robotics division.
+ .
+ This package has the packages needed to develop software.
+
+Package: ioc-roblab-utils
+Architecture: any
+Depends: ${misc:Depends},
+ 	flashplugin-nonfree, 
+	ldap-utils, 
+	scilab-full-bin, octave, terminator
+Description: Metapackage for a computer lab, utils
+ This is a metapackage with all the packages needed to work at
+ the IOC (Institut d'Organització i Control de Sistemes Industrials -IOC-)
+ in the Robotics division.
+ .
+ This package has some utils packages.
+

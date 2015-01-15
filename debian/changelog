@@ -1,0 +1,12 @@
+ioc-roblab (0.1-2) jessie-robotics; urgency=medium
+
+  * Added scilab-full-bin and octave.
+  * Split in several packages.
+
+ -- Leopold Palomo-Avellaneda <leo@alaxarxa.net>  Thu, 15 Jan 2015 11:15:22 +0100
+
+ioc-roblab (0.1-1) jessie-robotics; urgency=low
+
+  * Initial package.
+
+ -- Leopold Palomo-Avellaneda <leo@alaxarxa.net>  Thu, 15 Jan 2015 09:41:21 +0100
