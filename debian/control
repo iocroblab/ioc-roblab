@@ -23,7 +23,8 @@ Package: ioc-roblab-edition
 Architecture: any
 Depends: ${misc:Depends},
  	graphviz, icatalan, icc-profiles, latex-beamer, 
-	latex-cjk-all, latex-xcolor, texlive-full
+	latex-cjk-all, latex-xcolor, texlive-full, 
+	kile, texmaker, gummi, latexila
 Description: Metapackage for a computer lab edition
  This is a metapackage with all the packages needed to work at
  the IOC (Institut d'Organització i Control de Sistemes Industrials -IOC-)
@@ -53,7 +54,7 @@ Depends: ${misc:Depends},
 	libsimage-dev, libsoqt4-dev, libtiff5-dev, libusb-dev, libtinyxml-dev,
 	libusb-dev, libusb-1.0-0-dev, libvtk5-dev, python-dev,
 	qt4-dev-tools, qttools5-dev-tools, sip-dev, tk8.5-dev, qtcreator,
-	libompl-dev, libpugixml-dev
+	libompl-dev, libpugixml-dev, python-wxgtk3.0, python-wxtools
 Description: Metapackage for a computer lab development
  This is a metapackage with all the packages needed to work at
  the IOC (Institut d'Organització i Control de Sistemes Industrials -IOC-)
